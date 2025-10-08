@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+  color: rgb(45, 150, 76);
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  margin-top: 0px;
+  background-image: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/248000/248709-Everland-Yongin.jpg");
+  background-size: cover;
+  height: 350px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+header > h1,
+h4 {
+  color: white;
+  border-radius: 10px;
+}
+
+#mascot {
+  border: 5px solid #559aaf;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.header-title {
+  /* background: #4bbadb; */
+  text-shadow: 1px 1px 10px rgb(65, 64, 28);
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-desc {
+  margin-top: 6px;
+  box-shadow: 0px 0px 10px white;
+  background: #3b9c54;
+  width: 400px;
+  padding: 10px;
+}
+
+.activities-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.activities {
+  display: flex;
+  gap: 20px;
+}
+
+.activities > div {
+  width: 250px;
+}
+.activity-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #55af64;
+}
