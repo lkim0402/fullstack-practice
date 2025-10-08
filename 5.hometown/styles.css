@@ -54,7 +54,11 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  /* padding: 30px; */
+  padding-bottom: 50px;
+}
+#activities-title {
+  padding: 35px;
 }
 .activities {
   display: flex;
@@ -64,9 +68,44 @@ h4 {
 .activities > div {
   width: 250px;
 }
+
 .activity-image {
   width: 180px;
   height: 180px;
+  object-fit: cover;
   border-radius: 50%;
   border: 5px solid #55af64;
+}
+
+.guide-section {
+  background: rgb(252, 253, 199);
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guide-card {
+  display: flex;
+  background-color: #73d383;
+  width: 500px;
+  border-radius: 30px;
+  padding: 20px;
+  align-items: center;
+  gap: 10px;
+}
+#guide-img {
+  height: 200px;
+  width: 150px;
+  background: rgb(235, 255, 227);
+  border: 3px solid #55af64;
+  border-radius: 40%;
+}
+.guide-desc {
+  background: rgb(255, 255, 241);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.guide-desc > h1 {
+  border-bottom: 2px solid #3b9c54;
 }
