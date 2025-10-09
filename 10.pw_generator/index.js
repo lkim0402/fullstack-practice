@@ -3,7 +3,7 @@ let pw2;
 let password1El = document.getElementById("password1");
 let password2El = document.getElementById("password2");
 
-let length = 12;
+let length = 15;
 let charset =
   "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*<>?";
 
