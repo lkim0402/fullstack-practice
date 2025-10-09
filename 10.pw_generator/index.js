@@ -33,4 +33,5 @@ function copyToClipboard(copyText) {
   }
   navigator.clipboard.writeText(pw);
   console.log("Copied: " + pw);
+  alert("Copied: " + pw + "!");
 }
