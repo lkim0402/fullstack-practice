@@ -2,14 +2,21 @@ let hasBlackjack = false;
 let isAlive = true;
 let message;
 let sum;
+let cards;
 
 let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 let cardsEl = document.getElementById("cards-el");
+let playerEl = document.getElementById("player-el");
 
-let cards;
+let player = {
+  name: "Leejun",
+  chips: 145,
+};
 
 function startGame() {
+  playerEl.textContent = player.name + ": $" + player.chips;
+
   let firstCard = getRandomCard();
   let secondCard = getRandomCard();
   sum = firstCard + secondCard;
