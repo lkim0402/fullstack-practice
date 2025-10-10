@@ -1,0 +1,91 @@
+body {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+  color: white;
+  /* background: #81bff8; */
+  background: linear-gradient(rgb(88, 177, 228), rgb(255, 199, 218));
+
+  text-shadow: 0px 0px 3px black;
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pfp {
+  border: 5px solid rgb(241, 160, 185);
+  border-radius: 50%;
+}
+
+#age {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: rgb(241, 160, 185);
+  margin: 10px 10px;
+}
+
+#date {
+  margin: 0px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: rgb(241, 160, 185);
+}
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0px;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-img {
+  background-image: url("https://img.freepik.com/premium-vector/luxurious-gift-with-gold-ribbon_8443-354.jpg");
+  height: 400px;
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 10px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gift1:hover {
+  background-image: url("https://media.tenor.com/kwuyggO2hcEAAAAM/minion-woohoo.gif");
+}
+
+#gift2:hover {
+  background-image: url("https://media.tenor.com/ZsLCgXQsopoAAAAM/milk-milk-blush.gif");
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("https://media1.tenor.com/m/58BcduOW6tAAAAAC/cheers-fireworks.gif");
+}
+
+#footer {
+  font-style: italic;
+  width: 400px;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 10px; */
+  margin: 50px auto;
+}
+
+.desc {
+}
+.link {
+  color: white;
+}

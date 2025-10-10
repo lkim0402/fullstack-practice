@@ -1,0 +1,45 @@
+body {
+  margin: 20px;
+}
+
+img {
+  /* width: 200px; */
+  display: block;
+}
+
+.card {
+  background: #81b29a;
+  border-bottom: 10px solid #e07a5f;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 60px -16px teal;
+}
+
+.content {
+  display: flex;
+  background: f4f1de;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: large;
+}
+
+.content > * {
+  transition: transform 0.3s ease-in-out;
+}
+
+.content > *:hover {
+  color: rgb(35, 35, 85);
+  transform: scale(1.2);
+}
+
+.name {
+  font-size: larger;
+}
+
+.bold {
+  font-weight: bold;
+}
