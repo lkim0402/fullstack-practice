@@ -51,4 +51,15 @@ function getHand() {
   let randomIndex = Math.floor(Math.random() * 3);
   return hands[randomIndex];
 }
-console.log(getHand());
+// console.log(getHand());
+
+/**
+ * Template String
+ */
+const recipient = "James";
+const sender = "Leejun";
+const email = `
+  Hey ${recipient}! 
+  How is it going? 
+  Cheers ${sender}`;
+console.log(email);
