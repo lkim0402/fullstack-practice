@@ -62,4 +62,19 @@ const email = `
   Hey ${recipient}! 
   How is it going? 
   Cheers ${sender}`;
-console.log(email);
+// console.log(email);
+
+let test = ["a", "b", "c"];
+
+/**
+ * practice
+ */
+function generateSentence(desc, arr) {
+  let string = `The ${arr.length} ${desc} are `;
+  for (let i = 0; i < arr.length - 1; i++) {
+    string += arr[i] + ", ";
+  }
+  string += arr[arr.length - 1] + ".";
+  console.log(string);
+}
+generateSentence("best fruits", ["apple", "banana"]);
