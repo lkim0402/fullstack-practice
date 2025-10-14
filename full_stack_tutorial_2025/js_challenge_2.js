@@ -93,3 +93,8 @@ const distanceTraveledMiles = [344, 63, 346, 236, 246];
 const distanceTraveledKm = distanceTraveledMiles.map((distance) =>
   Math.round(distance * 1.6)
 );
+
+function f(first, second, ...args) {
+  args.forEach((num) => console.log("this is num: " + num));
+}
+f(3, "hey", 4, 5, 7);
